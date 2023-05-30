@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Dashboard</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!-- Dashboard Page -->
+    <div data-role="page" id="dashboard">
+        <div data-role="header">
+            <h1>College Dashboard</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#grades">Grades</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Courses Page -->
+    <div data-role="page" id="courses">
+        <div data-role="header">
+            <a href="#dashboard" data-rel="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+            <h1>Courses</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <h2>Mathematics</h2>
+                    <p>Professor: John Smith</p>
+                    <p>Time: Monday 9:00 AM - 11:00 AM</p>
+                </li>
+                <li>
+                    <h2>Computer Science</h2>
+                    <p>Professor: Jane Doe</p>
+                    <p>Time: Tuesday 1:00 PM - 3:00 PM</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Grades Page -->
+    <div data-role="page" id="grades">
+        <div data-role="header">
+            <a href="#dashboard" data-rel="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+            <h1>Grades</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <h2>Mathematics</h2>
+                    <p>Grade: A</p>
+                </li>
+                <li>
+                    <h2>Computer Science</h2>
+                    <p>Grade: B+</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Profile Page -->
+    <div data-role="page" id="profile">
+        <div data-role="header">
+            <a href="#dashboard" data-rel="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</a>
+            <h1>Profile</h1>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <h2>Full Name</h2>
+                    <p>John Doe</p>
+                </li>
+                <li>
+                    <h2>Email</h2>
+                    <p>john.doe@example.com</p>
+                </li>
+                <li>
+                
+                    <h2>Student ID</h2>
+                    <p>123456789</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
